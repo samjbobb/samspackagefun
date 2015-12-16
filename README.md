@@ -56,6 +56,8 @@ https://golang.org/cmd/go/#hdr-Description_of_package_lists
 
 [About the go command](https://golang.org/doc/articles/go_command.html)
 
+[What does go build build ?](http://dave.cheney.net/2014/06/04/what-does-go-build-build)
+
 ## Other (more pro) examples
 
 https://github.com/boltdb/bolt
