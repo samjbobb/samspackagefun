@@ -7,6 +7,6 @@ func Yell() {
 	notAnExportedFunc()
 }
 
-func notAnExportedFunc(){
+func notAnExportedFunc() {
 	fmt.Println("Hi, I'm not exported")
 }

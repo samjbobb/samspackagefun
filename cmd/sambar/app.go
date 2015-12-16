@@ -1,8 +1,9 @@
 package main
 
 import (
-	"bitbucket.org/samjbobb/samspackagefun"
 	"fmt"
+
+	"github.com/samjbobb/samspackagefun"
 )
 
 func main() {
