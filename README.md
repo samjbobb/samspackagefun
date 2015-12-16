@@ -21,13 +21,21 @@ Re-compile those binaries into `$GOBIN`:
      
      $ go install github.com/samjbobb/samspackagefun/...
      
-     
-Build both into another dir??? ...
+Or
 
+    $ cd $GOPATH/src/github.com/samjbobb/samspackagefun
+    $ go install ./...
 
 Build `samfoo` into current dir:
 
     $ go build ./cmd/samfoo
+
+Run one cmd:
+
+    $ go run cmd/sambar/app.go 
+    
+
+Is there a way to build both binaries with one command into a dir other than $GOBIN ??? ...
 
 
 ## Reading
