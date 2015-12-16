@@ -44,12 +44,12 @@ https://golang.org/cmd/go/#hdr-Description_of_package_lists
 
 > An import path is a pattern if it includes one or more "..." wildcards, each of which can match any string, including the empty string and strings containing slashes. Such a pattern expands to all package directories found in the GOPATH trees with names matching the patterns. As a special case, x/... matches x as well as x's subdirectories. For example, net/... expands to net and packages in its subdirectories.
 
+[How to Write Go Code](https://golang.org/doc/code.html#Workspaces)
 
+[About the go command](https://golang.org/doc/articles/go_command.html)
 
-## Other (better) examples
+## Other (more pro) examples
 
 https://github.com/boltdb/bolt
 
 https://github.com/camlistore/camlistore
-
-More pro.
