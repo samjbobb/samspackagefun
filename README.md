@@ -5,7 +5,7 @@ This is a demo project in go that generates multiple binaries that use shared fu
 
 ## Install and run
 
-    $ go get bitbucket.org/samjbobb/samspackagefun/...
+    $ go get github.com/samjbobb/samspackagefun/...
     
 Which will retreive the library and install the `samfoo` and `sambar` executables in your `$GOBIN` 
 which is usually `$GOPATH/bin`.
@@ -19,7 +19,7 @@ Then run:
 
 Re compile those executables into the same dir:
      
-     $ go install bitbucket.org/samjbobb/samspackagefun/...
+     $ go install github.com/samjbobb/samspackagefun/...
      
 Build into another dir???
 
